@@ -1,0 +1,9 @@
+{
+  "name": "good-code-review",
+  "version": "1.0.0",
+  "description": "Code review against the good-code principles of Software Engineering for Data Scientists: simplicity, modularity, readability, performance, robustness, plus testing, docs, security and ML pitfalls.",
+  "author": {
+    "name": "Esteban Russi",
+    "email": "esteban.russi@deptagency.com"
+  }
+}
