@@ -7,7 +7,7 @@ The five core principles are **simple, modular, readable, performant and robust*
 The output is a findings report:
 - A scorecard over the principles.
 - Each finding ranked 🔴 must fix / 🟡 should fix / 🔵 consider.
-- `file:line` and the book chapter for every finding.
+- `file:line` and the principle behind every finding.
 
 The skill is review-only: it changes files only when you ask it to.
 
@@ -68,7 +68,7 @@ If the project has ruff, mypy, pytest, bandit or pip-audit configured and instal
 ```
 skills/good-code-review/
 ├── SKILL.md                  # steps the review follows, severity levels, report format
-└── references/checklist.md   # ~90 checks in sections A–K, each citing its book chapter
+└── references/checklist.md   # ~90 checks in sections A–K
 .claude-plugin/               # plugin + marketplace manifests
 ```
 
@@ -76,4 +76,4 @@ To change what the review checks, edit `references/checklist.md`. The severity l
 
 ## Credit
 
-The principles come from *Software Engineering for Data Scientists* by Catherine Nelson (O'Reilly, 2024). This repo contains only a checklist derived from the book, not any of its text, so to understand the reasoning behind a check, read the chapter it cites.
+The principles come from *Software Engineering for Data Scientists* by Catherine Nelson (O'Reilly, 2024). This repo contains only a checklist derived from the book, not any of its text. For the reasoning behind the checks, read the book.
